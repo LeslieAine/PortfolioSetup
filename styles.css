@@ -11,31 +11,36 @@ html {
 .heading-section {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 30px 20px;
 }
 
 .header {
-  width: 100%;
-  margin: 0;
-}
-
-.navigate {
   display: flex;
   width: 100%;
   margin: 0;
   justify-content: space-between;
   color: white;
   background-color: #3c3a39;
+  text-decoration: none;
+  padding: 20px;
 }
 
 body {
   background-color: #1c1a19;
   margin: 0;
 }
+.logo{
+    color: white;
+    text-decoration: none;
+}
 
-.heading1 {
-  color: #f55800;
+.heading {
+  color: #ff6B00;
   font-size: 50px;
   font-family: Crete Round, var(--font-family-common);
+  margin: 10% 0 0;
 }
 
 .describe {
@@ -53,6 +58,23 @@ body {
   color: #fff;
 }
 
+
+/* This is the social styling */
+
+.social {
+    display: flex;
+    
+}
+
+ul {
+    padding: 0;
+}
 .social-icons {
-  margin: 10px;
+  padding-right: 10px;
+}
+
+.background {
+    position: absolute;
+    right: 0%;
+    bottom: 12%;
 }
