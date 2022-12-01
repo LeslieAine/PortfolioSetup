@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 html {
   box-sizing: border-box;
+  height: 100%;
 }
 
 *,
@@ -30,6 +35,12 @@ html {
 body {
   background-color: #1c1a19;
   margin: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(images/Group.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 .logo {
@@ -39,30 +50,34 @@ body {
 
 .heading {
   color: #ff6b00;
-  font-size: 50px;
-  font-family: Crete Round, var(--font-family-common);
-  margin: 10% 0 0;
+  font-size: 56px;
+  font-family: 'Crete Round', sans-serif;
+  margin: 30% 0 0;
+  font-style: normal;
 }
 
 .describe {
-  font-family: Roboto, var(--font-family-common);
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
+  font-weight: 700;
+  font-size: 24px;
   color: #fff;
+  align-items: center;
 }
 
 .headline {
-  font-family: Poppins, var(--font-family-common);
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   line-height: 32px;
   color: #fff;
+  margin: 10% 0 10%;
 }
 
 /* This is the social styling */
 
 .social {
   display: flex;
+  align-items: center;
 }
 
 ul {
@@ -71,10 +86,5 @@ ul {
 
 .social-icons {
   padding-right: 10px;
-}
-
-.background {
-  position: absolute;
-  right: 0%;
-  bottom: 12%;
+  align-items: center;
 }
