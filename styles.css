@@ -31,13 +31,14 @@ body {
   background-color: #1c1a19;
   margin: 0;
 }
-.logo{
-    color: white;
-    text-decoration: none;
+
+.logo {
+  color: white;
+  text-decoration: none;
 }
 
 .heading {
-  color: #ff6B00;
+  color: #ff6b00;
   font-size: 50px;
   font-family: Crete Round, var(--font-family-common);
   margin: 10% 0 0;
@@ -62,19 +63,19 @@ body {
 /* This is the social styling */
 
 .social {
-    display: flex;
-    
+  display: flex;
 }
 
 ul {
-    padding: 0;
+  padding: 0;
 }
+
 .social-icons {
   padding-right: 10px;
 }
 
 .background {
-    position: absolute;
-    right: 0%;
-    bottom: 12%;
+  position: absolute;
+  right: 0%;
+  bottom: 12%;
 }
