@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=InaiMathidisplay=swap');
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.heading-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 30px 20px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  justify-content: space-between;
+  color: white;
+  background-color: #3c3a39;
+  text-decoration: none;
+  padding: 20px;
+}
+
+body {
+  background-color: #1c1a19;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(images/Group.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+}
+
+.heading {
+  color: #ff6b00;
+  font-size: 56px;
+  font-family: 'Crete Round', sans-serif;
+  margin: 30% 0 0;
+  font-style: normal;
+}
+
+.describe {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  align-items: center;
+}
+
+.headline {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+  margin: 10% 0 10%;
+}
+
+/* This is the social styling */
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  padding: 0;
+}
+
+.social-icons {
+  padding-right: 10px;
+  align-items: center;
+}
