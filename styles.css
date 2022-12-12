@@ -201,9 +201,9 @@ li {
   color: #fff;
 }
 
-.icon2 {
-  align-items: center;
-  margin: 10px;
+.float-item {
+  margin-right: 10px;
+  float: left;
 }
 
 .button2 {
