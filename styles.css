@@ -436,8 +436,13 @@ ul {
 .break1{
   width: 134px;
   height: 5px;
-  left: calc(50% - 134px/2 - 0.5px);
+  margin: 0 auto;
   bottom: 8px;
   background-color: black;
   border-radius: 10px
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
 }
