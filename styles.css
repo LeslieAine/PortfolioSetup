@@ -201,7 +201,7 @@ li {
   color: #fff;
 }
 
-.f-item{
+.f-item {
   display: flex;
   flex-direction: row;
 }
@@ -317,7 +317,7 @@ li {
   text-decoration: none;
 }
 
-.form{
+.form {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -326,31 +326,27 @@ li {
   padding: 30px 20px;
 }
 
-.form-words{
+.form-words {
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-.contact-form{
+.contact-form {
   display: flex;
   flex-direction: column;
 }
 
-.form1{
+.form1 {
   padding: 0 24px;
   width: 100%;
 }
 
-.form-item{
+.form-item {
   margin: 20px;
-  /* border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-style: groove; */
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -364,9 +360,7 @@ input {
   border-bottom: 1px solid #dbd8d7 !important;
 }
 
-textarea{
-  /* box-sizing: border-box;
-  border: 1px solid black; */
+textarea {
   background-color: #e5e5e5;
   min-height: 114px;
 }
@@ -380,9 +374,7 @@ textarea {
   padding: 16px;
 }
 
-
-
-.button3{
+.button3 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
@@ -391,7 +383,7 @@ textarea {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
   margin: 10px;
   background-color: #ff6b00;
   width: 131px;
@@ -400,7 +392,7 @@ textarea {
   border: none;
 }
 
-footer{
+footer {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -408,15 +400,11 @@ footer{
   height: 72px;
 }
 
-.socials1{
+.socials1 {
   display: flex;
   align-items: center;
   position: bottom;
   margin-left: 80px;
-}
-
-ul {
-  padding: 0;
 }
 
 .social-icon {
@@ -424,25 +412,16 @@ ul {
   align-items: center;
 }
 
-/* .break{
-  color: #DFE1E6;
-  background-color: #DFE1E6;
-  width: 100%;
-  height: 1px;
-  margin: 0px;
-  margin-top: 70px;
-}  */
-
-.break1{
+.break1 {
   width: 134px;
   height: 5px;
   margin: 0 auto;
   bottom: 8px;
   background-color: black;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: center;
 }
