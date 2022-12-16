@@ -121,6 +121,18 @@ hr {
   width: 100%;
 }
 
+.bgimage:hover {
+  scale: 1.2;
+}
+
+.social-icons a {
+  transform: none;
+}
+
+.social-icons a:hover {
+  font-size: 32px;
+}
+
 .Stories {
   font-family: 'Crete Round', serif;
   font-size: 32px;
@@ -497,6 +509,10 @@ footer {
     flex-direction: column;
     order: -1;
     margin-right: 80px;
+  }
+
+  .social > * {
+    transition: all 2s ease-in-out;
   }
 
   .social-icons {
