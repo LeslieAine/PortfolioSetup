@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=InaiMathidisplay=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
 
 html {
   box-sizing: border-box;
@@ -13,6 +9,10 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+.desktop-only {
+  display: none;
 }
 
 .heading-section {
@@ -32,9 +32,10 @@ html {
   background-color: #3c3a39;
   text-decoration: none;
   padding: 20px;
+  height: 48px;
 }
 
-body {
+.body {
   background-color: #1c1a19;
   margin: 0;
   height: 100%;
@@ -53,13 +54,13 @@ body {
 .heading {
   color: #ff6b00;
   font-size: 56px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   margin: 30% 0 0;
   font-style: normal;
 }
 
 .describe {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -95,47 +96,39 @@ ul {
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-around;
-  padding: 30px 20px;
+  margin: 120px 24px 0;
 }
 
 .recent-works {
-  font-family: 'Crete Round', sans-serif;
-  font-size: 40px;
-  margin-top: 70px;
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
   color: #091e42;
   line-height: 52px;
 }
 
+.recent-works-head {
+  display: flex;
+  flex-direction: column;
+}
+
 hr {
   color: black;
-  background-color: black;
-  width: 327px;
-  height: 0;
-  margin-bottom: 60px;
+  margin: 24px 24px 80px 24px;
 }
 
 .bgimage {
-  background-image: url(images/works.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  border: inset 170px transparent;
-  box-sizing: border-box;
+  width: 100%;
 }
 
 .Stories {
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-size: 32px;
-  margin-top: 26px;
-  margin-bottom: 10px;
-  line-height: 44px;
 }
 
 .work-words {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
-  margin: 0;
   color: #091e42;
   line-height: 24px;
 }
@@ -178,20 +171,21 @@ li {
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  padding: 30px 20px;
+  justify-content: end;
+  padding: 30px 0 0;
   background-image: url(images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: absolute;
+  margin-bottom: 24px;
 }
 
 .heading5 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+  order: 0;
+  padding-left: 20px;
 }
 
 .art-words {
@@ -199,11 +193,17 @@ li {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+  order: 1;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .f-item {
   display: flex;
   flex-direction: row;
+  order: 2;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .icon2 {
@@ -212,11 +212,9 @@ li {
 }
 
 .button2 {
-  margin: 0;
   background-color: #ff6b00;
   width: 100%;
   height: 48px;
-  padding: 10px;
   border: 1px solid;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
@@ -225,8 +223,12 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  position: absolute;
-  left: 0%;
+  margin-top: 22px;
+  order: 3;
+}
+
+.Professional:last-child {
+  margin-bottom: 120px;
 }
 
 .About-me {
@@ -242,7 +244,7 @@ li {
 }
 
 .about {
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
@@ -268,9 +270,11 @@ li {
 .about-break {
   color: white;
   background-color: white;
-  width: 327px;
+  width: 100%;
   height: 0;
   background-position-y: bottom;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .myskills {
@@ -424,4 +428,211 @@ footer {
 .btn-container {
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
+
+  .header_ {
+    display: flex;
+    height: 72px;
+    margin: 0;
+    justify-content: space-around;
+    color: white;
+    background-color: #3c3a39;
+    text-decoration: none;
+    align-items: center;
+  }
+
+  .logo {
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .header_items {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .heading-section {
+    display: flex;
+    flex-direction: row;
+    background-image: url(images/desktop/header.svg);
+    background-size: contain;
+    justify-content: flex-start;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .heading-section-text {
+    flex-direction: column;
+    max-width: 566px;
+  }
+
+  .heading {
+    font-size: 72px;
+  }
+
+  .describe {
+    font-size: 32px;
+  }
+
+  .headline {
+    font-size: 20px;
+  }
+
+  .social {
+    flex-direction: column;
+    order: -1;
+    margin-right: 80px;
+  }
+
+  .social-icons {
+    padding: 5px;
+  }
+
+  .works {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .recent-works-words {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bgimage {
+    flex: 60%;
+    min-width: 0;
+  }
+
+  .stories-words {
+    flex: 40%;
+    margin-left: 20px;
+  }
+
+  .recent-works-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .recent-works {
+    font-size: 40px;
+    display: inline;
+    flex: 40%;
+  }
+
+  hr {
+    float: right;
+    flex: 60%;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .Professional-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 36px 24px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+
+  .Professional:last-child {
+    margin-bottom: 24px;
+  }
+
+  .Professional:hover *:not(button) {
+    opacity: 0;
+  }
+
+  .button2:hover {
+    background-color: #f55800;
+    color: #fff5e1;
+    display: block;
+  }
+
+  .button2:active {
+    color: #f4f1f0;
+    background-color: #f4f1f0;
+    display: none;
+  }
+
+  .About-me {
+    display: flex;
+    flex-direction: column;
+    padding: 130px 130px 0 130px;
+    background-image: url(images/desktop/Aboutme.png);
+    background-repeat: no-repeat;
+  }
+
+  .about-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 566px;
+    height: 582px;
+    justify-content: flex-start;
+  }
+
+  .about-words {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .myskills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .col4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form-words {
+    font-size: 40px;
+    max-width: 455px;
+    text-align: left;
+    margin-left: 40px;
+    flex: 40%;
+  }
+
+  .contact-form {
+    max-width: 684px;
+    flex: 60%;
+  }
+
+  textarea {
+    background-color: #fbf8f7;
+  }
+
+  .socials1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: bottom;
+    justify-content: center;
+  }
 }
