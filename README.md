@@ -1,4 +1,5 @@
-# PortfolioSetup
+# Portfolio_DesktopVersion
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -25,10 +26,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [helloMicroverse] <a name="about-project"></a>
+# 📖 [Portfolio setup] <a name="about-project"></a>
 
 
-**[helloMicroverse]** is my first project with Microverse to test my gitflow skills and professional coding.
+**[Portfolio setup]** is my project where I set up my portfolio using template2. In this version, I setup the desktop version.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,6 +75,13 @@ A browser
 👤 **Leslie Aine**
 
 - GitHub: [@githubhandle](https://github.com/LeslieAine)
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+**Bootstrap**
+**Ruby**
+**Animations and transitions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
