@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=InaiMathidisplay=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
 
 html {
   box-sizing: border-box;
@@ -58,13 +54,13 @@ html {
 .heading {
   color: #ff6b00;
   font-size: 56px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   margin: 30% 0 0;
   font-style: normal;
 }
 
 .describe {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -105,7 +101,7 @@ ul {
 }
 
 .recent-works {
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-size: 32px;
   color: #091e42;
   line-height: 52px;
@@ -126,7 +122,7 @@ hr {
 }
 
 .Stories {
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-size: 32px;
 }
 
@@ -184,7 +180,7 @@ li {
 }
 
 .heading5 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
@@ -248,7 +244,7 @@ li {
 }
 
 .about {
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
