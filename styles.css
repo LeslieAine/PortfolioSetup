@@ -125,6 +125,14 @@ hr {
   scale: 1.2;
 }
 
+.social-icons a {
+  transform: none;
+}
+
+.social-icons a:hover {
+  font-size: 32px;
+}
+
 .Stories {
   font-family: 'Crete Round', serif;
   font-size: 32px;
