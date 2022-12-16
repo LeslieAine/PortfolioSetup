@@ -508,8 +508,8 @@ footer {
   }
 
   .works {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   .recent-works-words {
@@ -531,43 +531,56 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
   }
 
   .recent-works {
     font-size: 40px;
     display: inline;
+    flex: 40%;
   }
 
   hr {
     float: right;
-    width: calc(100% - 370px);
+    flex: 60%;
     height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .Professional-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 36px 24px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
   }
 
   .Professional:last-child {
     margin-bottom: 24px;
   }
 
+  .Professional:hover *:not(button) {
+    opacity: 0;
+  }
+
+  .button2:hover {
+    background-color: #f55800;
+    color: #fff5e1;
+    display: block;
+  }
+
+  .button2:active {
+    color: #f4f1f0;
+    background-color: #f4f1f0;
+    display: none;
+  }
+
   .About-me {
     display: flex;
     flex-direction: column;
     padding: 130px 130px 0 130px;
-  }
-
-  .about-text {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .bgimage3 {
     background-image: url(images/desktop/Aboutme.png);
     background-repeat: no-repeat;
   }
@@ -604,13 +617,19 @@ footer {
 
   .form-words {
     font-size: 40px;
-    max-width: 330px;
+    max-width: 455px;
     text-align: left;
     margin-left: 40px;
+    flex: 40%;
   }
 
   .contact-form {
-    width: 100%;
+    max-width: 684px;
+    flex: 60%;
+  }
+
+  textarea {
+    background-color: #fbf8f7;
   }
 
   .socials1 {
