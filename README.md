@@ -35,8 +35,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -47,8 +45,6 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **[html]**
 - **[css]**
@@ -62,8 +58,9 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+1. Clone to your local repository using git clone https://github.com/LeslieAine/PortfolioSetup.git
 
-A browser
+2. A browser to https://github.com/LeslieAine/PortfolioSetup/
 
 
 <!-- AUTHORS -->
