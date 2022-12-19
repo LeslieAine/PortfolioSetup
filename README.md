@@ -51,9 +51,14 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### 🚀 Live Demo <a name="live-demo"> </a>
+  https://github.com/LeslieAine/PortfolioSetup/
+
 
 
 To get a local copy up and running, follow these steps.
+
+Clone to your local repository using git clone https://github.com/LeslieAine/PortfolioSetup.git
 
 ### Prerequisites
 
