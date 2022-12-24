@@ -59,7 +59,8 @@
 
 To get a local copy up and running, follow these steps.
 
-Clone to your local repository using git clone https://github.com/LeslieAine/PortfolioSetup.git
+Clone to your local repository using 
+git clone https://github.com/LeslieAine/PortfolioSetup.git
 
 ### Prerequisites
 
@@ -95,6 +96,8 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+A walkthrough for my project can be found at;
+https://www.loom.com/share/a9e7332ce9ae4fe58301c7c804ccaa49
 
 <!-- SUPPORT -->
 
