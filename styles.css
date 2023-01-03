@@ -35,6 +35,48 @@ html {
   height: 48px;
 }
 
+.mobile-menu-overlay {
+  height: 100vh;
+  width: calc(100vw - 15px);
+  left: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #3c3a39;
+  padding-top: 18px;
+  transition: left 0.5s ease-in-out;
+}
+
+.overlay-cross-button {
+  padding-right: 36px;
+  align-self: end;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.overlay-list {
+  list-style: none;
+  padding: 24px;
+  width: 100%;
+}
+
+.list-item > hr {
+  color: #6f6c6b;
+}
+
+.list-item > a {
+  text-decoration: none;
+}
+
+.overlay-heading {
+  padding: 0 16px;
+  color: #fff5e1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
 .body {
   background-color: #1c1a19;
   margin: 0;
@@ -110,11 +152,6 @@ ul {
 .recent-works-head {
   display: flex;
   flex-direction: column;
-}
-
-hr {
-  color: black;
-  margin: 24px 24px 80px 24px;
 }
 
 .bgimage {
