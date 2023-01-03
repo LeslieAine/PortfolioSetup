@@ -3,11 +3,6 @@ const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
 const navHamIcon = document.querySelector('.navigate');
 const mobileMenuLinks = document.querySelectorAll('.list-item > a');
 
-// function hideMobileMenu() {
-//     mobileMenuOverlay.style.right = '100%';
-//     mobileMenuOverlay.style.display = 'none';
-// }
-
 navHamIcon.addEventListener('click', () => {
     mobileMenuOverlay.style.right = '0';
     mobileMenuOverlay.style.display = 'flex';
