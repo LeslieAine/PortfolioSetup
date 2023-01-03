@@ -35,11 +35,11 @@ html {
   height: 48px;
 }
 
-header .mobile-menu-overlay {
+.mobile-menu-overlay {
   height: 100%;
   width: 100%;
   position: absolute;
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: #3c3a39;
   padding-top: 18px;
