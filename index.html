@@ -10,9 +10,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap" rel="stylesheet" />
     
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
   </head>
   <div class="body">
     <header>
+      <div class="mobile-menu-overlay mobile-only">
+        <button class="overlay-cross-button">
+          <img
+            class="overlay-cross-icon"
+            src="images/CrossIcon.png"
+            alt="cross icon"
+          />
+        </button>
+        <ul class="overlay-list">
+          <li class="list-item">
+            <a href="#portfolio">
+              <h2 class="overlay-heading">Portfolio</h2>
+            </a>
+            <hr />
+          </li>
+          <li class="list-item">
+            <a href="#about">
+              <h2 class="overlay-heading">About</h2>
+            </a>
+            <hr />
+          </li>
+          <li class="list-item">
+            <a href="#contact">
+              <h2 class="overlay-heading">Contact</h2>
+            </a>
+            <hr />
+          </li>
+        </ul>
+      </div>
       <div class="header mobile-only">
         <a class="logo" href="">Leslie</a>
         <nav class="navigate">
@@ -67,7 +97,7 @@
     </section>
   </div>
 
-  <section class="works">
+  <section class="works" id="portfolio">
     <div class="recent-works-head">
       <h2 class="recent-works">My Recent Works</h2>
       <hr />
@@ -241,7 +271,7 @@
     </section>
   </div>
 
-  <section class="About-me">
+  <section class="About-me" id="about">
     <div class="about-column">
       <h3 class="about">About me</h3>
         <p class="about-words">
@@ -312,7 +342,7 @@
     </div>
   </section>
 
-  <section class="form">
+  <section class="form" id="contact">
     <p class="form-words">
       I'm always interested in hearing about new projects, so if you'd like to
       chat please get in touch.
