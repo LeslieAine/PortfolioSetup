@@ -44,7 +44,6 @@ html {
   flex-direction: column;
   background-color: #3c3a39;
   padding-top: 18px;
-  transition: left 0.5s ease-in-out;
 }
 
 .overlay-cross-button {
