@@ -8,9 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap" rel="stylesheet" />
-    
+    <script>
+      AOS.init();
+    </script>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
+    <script src="modal.js"></script>
+    <script src="https://kit.fontawesome.com/b89b7c8adf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <div class="body">
     <header>
@@ -129,9 +134,9 @@
           <br />
         </ul>
 
-        <li>
-          <a class="button" href="#">See Project</a>
-        </li>
+        <div class=buttonlink onclick="modal(0)">
+          <button class="button">See Project</button>
+        </div>
       </article>
     </div>
   </section>
@@ -157,7 +162,9 @@
         </li>
       </ul>
 
-      <button class="button2">See Project</button>
+      <div class=buttonlink onclick="modal(1)">
+        <button class="button2">See Project</button>
+      </div>
     </section>
 
     <section class="Professional">
@@ -179,7 +186,9 @@
         </li>
       </ul>
 
-      <button class="button2">See Project</button>
+      <div class=buttonlink onclick="modal(2)">
+        <button class="button2">See Project</button>
+      </div>
     </section>
 
     <section class="Professional">
@@ -201,7 +210,9 @@
         </li>
       </ul>
 
-      <button class="button2">See Project</button>
+      <div class=buttonlink onclick="modal(3)">
+        <button class="button2">See Project</button>
+      </div>
     </section>
 
     <section class="Professional">
@@ -223,7 +234,9 @@
         </li>
       </ul>
 
-      <button class="button2">See Project</button>
+      <div class=buttonlink onclick="modal(1)">
+        <button class="button2">See Project</button>
+      </div>
     </section>
 
     <section class="Professional">
@@ -245,7 +258,9 @@
         </li>
       </ul>
 
-      <button class="button2">See Project</button>
+      <div class=buttonlink onclick="modal(2)">
+        <button class="button2">See Project</button>
+      </div>
     </section>
 
     <section class="Professional">
@@ -266,8 +281,10 @@
           <a class="icon2" href="#"><img src="images/ruby1.png" alt="ruby" /></a>
         </li>
       </ul>
-
-      <button class="button2">See Project</button>
+      <div class=buttonlink onclick="modal(3)">
+        <button class="button2">See Project</button>
+      </div>
+      
     </section>
   </div>
 
@@ -421,4 +438,35 @@
 
     <div class="break1"></div>
   </footer>
+
+  <article id="card" class="card-container invisible">
+    <div class="card">
+      <i id="card-cross" class="fas fa-times card-cross" onclick="toggle()"></i>
+      <h3 id="card-title">See Project header</h3>
+      <ul id="tech-list" class="tech">
+      </ul>
+      <div class="popupFooter">
+        <img src="images/card1" class="card-image" alt="project screenshot">
+        <iframe src="" frameborder="0" class="card-iframe invisible"></iframe>
+        
+
+        <div class="functionality">
+          <p id="card-description">
+          </p>
+          <div class="button-container">
+            <button type="button" id="card-button-live" class="card-button">
+                See live
+              <i class="fas fa-external-link-alt"></i>
+            </button>
+            <button type="button" id="card-button-source" class="card-button">
+              See source
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </article>
+  
 </html>
