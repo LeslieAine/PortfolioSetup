@@ -48,6 +48,7 @@
 
 - **[html]**
 - **[css]**
+- **[javaScript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,8 +79,11 @@ In order to run this project you need:
 
 👤 **Leslie Aine**
 
-- GitHub: [@githubhandle](https://github.com/LeslieAine)
+- GitHub: [@LeslieAine](https://github.com/LeslieAine)
 
+👤 **Adarsh Pathak**
+
+- GitHub: [@PowerLevel9000](https://github.com/PowerLevel9000)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
