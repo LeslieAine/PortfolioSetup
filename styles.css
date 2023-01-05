@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   height: 100%;
+  width: 100%;
 }
 
 /* stylelint-disable-next-line no-duplicate-selectors */
@@ -786,7 +787,7 @@ label {
 
   .Professional-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 36px 24px;
     margin-left: 100px;
     margin-right: 100px;
@@ -917,5 +918,11 @@ label {
 
   .card .tech {
     margin-left: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Professional-cards {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
