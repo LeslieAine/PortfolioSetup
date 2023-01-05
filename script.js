@@ -4,13 +4,13 @@ const navHamIcon = document.querySelector('.navigate');
 const mobileMenuLinks = document.querySelectorAll('.list-item > a');
 
 navHamIcon.addEventListener('click', () => {
-    mobileMenuOverlay.style.right = '0';
-    mobileMenuOverlay.style.display = 'flex';
+  mobileMenuOverlay.style.right = '0';
+  mobileMenuOverlay.style.display = 'flex';
 });
 
 crossButton.addEventListener('click', () => {
-    mobileMenuOverlay.style.right = '100%';
-    mobileMenuOverlay.style.display = 'none';
+  mobileMenuOverlay.style.right = '100%';
+  mobileMenuOverlay.style.display = 'none';
 });
 
 mobileMenuLinks.forEach((mobileMenuLink) => {
@@ -19,4 +19,3 @@ mobileMenuLinks.forEach((mobileMenuLink) => {
     mobileMenuOverlay.style.display = 'none';
   });
 });
-
