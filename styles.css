@@ -1,8 +1,10 @@
+/* stylelint-disable length-zero-no-unit */
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
 
 html {
   box-sizing: border-box;
   height: 100%;
+  width: 100%;
 }
 
 /* stylelint-disable-next-line no-duplicate-selectors */
@@ -216,7 +218,7 @@ li {
 .button {
   margin: 0;
   background-color: #ff6b00;
-  width: 320px;
+  width: 124px;
   padding: 10px;
   border: 1px solid;
   text-decoration: none;
@@ -250,7 +252,6 @@ li {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  order: 0;
   padding-left: 20px;
 }
 
@@ -259,7 +260,6 @@ li {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  order: 1;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -267,7 +267,6 @@ li {
 .f-item {
   display: flex;
   flex-direction: row;
-  order: 2;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -290,7 +289,11 @@ li {
   letter-spacing: 0.03em;
   color: #fff;
   margin-top: 22px;
-  order: 3;
+}
+
+.button2:hover {
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
 .Professional:last-child {
@@ -500,6 +503,171 @@ label {
   display: none;
 }
 
+.card-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(193, 199, 208, 70%);
+  height: auto;
+  z-index: 5;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 95vh;
+  margin: 6.25%;
+  overflow: scroll;
+  z-index: 5;
+  background-color: #fff;
+}
+
+.card h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0 auto 3.25% 6.25%;
+}
+
+.card-iframe,
+.card-image {
+  max-width: 700px;
+  width: 87.5%;
+  margin: 3.125% 6.25%;
+  height: 35%;
+}
+
+.card-cross {
+  position: relative;
+  font-size: 20px;
+  color: #000;
+  width: 30px;
+  padding-top: 0;
+  transition: 0.3s;
+  top: 5%;
+  left: 88%;
+  height: 20px;
+  z-index: 5;
+}
+
+.card-cross:hover {
+  color: #1a2236;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  max-width: 249px;
+  justify-content: space-between;
+  list-style-type: circle;
+  padding: 0;
+  margin: 3.125% 10px 3.125% 6.25%;
+}
+
+.card-list li {
+  display: flex;
+  justify-content: space-evenly;
+  color: #7a869a;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  list-style-type: circle;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.card-list li:first-of-type {
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
+#card-description {
+  max-width: 700px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 3.125% 6.25%;
+}
+
+.card .tech {
+  /* width: fit-content;
+  max-width: 330px;
+  margin-left: -7%; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.horizontal {
+  display: none;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 3.125% 6.5% 1% 6.5%;
+  height: fit-content;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.card-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #ff6b00;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  border: 2px solid var(--theame-color);
+  width: 100%;
+  height: 51px;
+  margin: 3.125% 0;
+  transition: 0.3s;
+  padding: 0;
+  max-width: 170px;
+}
+
+.card-button:hover {
+  background-color: var(--theame-color);
+  color: #fff;
+}
+
+.card .tech li {
+  border: 1px solid;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.invisible {
+  display: none !important;
+}
+
 @media (min-width: 768px) {
   .mobile-only {
     display: none;
@@ -582,7 +750,7 @@ label {
     margin-right: 100px;
   }
 
-  .recent-works-words {
+  .recent-works-words1 {
     display: flex;
     flex-direction: row;
   }
@@ -620,7 +788,7 @@ label {
 
   .Professional-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 36px 24px;
     margin-left: 100px;
     margin-right: 100px;
@@ -631,21 +799,21 @@ label {
     margin-bottom: 24px;
   }
 
-  .Professional:hover *:not(button) {
+  /* .Professional:hover *:not(button) {
     opacity: 0;
-  }
+  } */
 
   .button2:hover {
-    background-color: #f55800;
-    color: #fff5e1;
+    background-color: #fff5e1;
+    color: #f55800;
     display: block;
   }
 
-  .button2:active {
+  /* .button2:active {
     color: #f4f1f0;
     background-color: #f4f1f0;
     display: none;
-  }
+  } */
 
   .About-me {
     display: flex;
@@ -708,5 +876,70 @@ label {
     align-items: center;
     position: bottom;
     justify-content: center;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 95vh;
+    margin: 6.25%;
+    overflow: hidden;
+    z-index: 2;
+    background-color: #fff;
+  }
+
+  .popupFooter {
+    display: flex;
+    flex-direction: row;
+    flex: 80%;
+  }
+
+  #card-description {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .tech {
+    margin-top: 0px;
+    flex: 10%;
+  }
+
+  .card h3 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    flex: 10%;
+  }
+
+  .card-iframe,
+  .card-image {
+    max-width: 700px;
+    flex: 60%;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 28px;
+    height: 53vh;
+  }
+
+  .functionality {
+    display: flex;
+    flex-direction: column;
+    flex: 40%;
+  }
+
+  .card .tech {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Professional-cards {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
