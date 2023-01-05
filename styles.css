@@ -1,3 +1,4 @@
+/* stylelint-disable length-zero-no-unit */
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
 
 html {
@@ -883,41 +884,57 @@ label {
     width: 90%;
     height: 95vh;
     margin: 6.25%;
-    overflow: scroll;
-    z-index: 5;
+    overflow: hidden;
+    z-index: 2;
     background-color: #fff;
   }
 
   .popupFooter {
     display: flex;
     flex-direction: row;
+    flex: 80%;
   }
 
   #card-description {
-    width: 424px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .tech {
+    margin-top: 0px;
+    flex: 10%;
+  }
+
+  .card h3 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    flex: 10%;
   }
 
   .card-iframe,
   .card-image {
     max-width: 700px;
-    width: 60%;
-    margin: 3.125% 6.25%;
-    height: 80%;
+    flex: 60%;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 28px;
+    height: 53vh;
   }
 
   .functionality {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    flex: 40%;
   }
 
   .card .tech {
-    margin-left: 50px;
+    margin-left: 10px;
   }
 }
 
