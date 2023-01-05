@@ -668,6 +668,11 @@ label {
   display: none !important;
 }
 
+.contact-form-small {
+  font-family: 'Inter', sans-serif;
+  color: #dc3545;
+}
+
 @media (min-width: 768px) {
   .mobile-only {
     display: none;
